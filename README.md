@@ -27,8 +27,8 @@ Using the extension:
 3) You will see two buttons - "Authorize" and "Upload bookmarks"
 
 4) Click "Authorize". You will be directed to a login screen where
-   you provide your Google SSO to grant access to the app make read/write
-   calls to Google Drive
+   you provide your Google SSO to grant access to the extension to make
+   read/write calls to your Google Drive account (The extension uses OAuth2).
 
 5) Open drive.google.com
 
@@ -38,15 +38,15 @@ Using the extension:
 7) Click "Upload bookmarks". You should see a progress bar indicating the
    bookmark upload is in progress.
 
-8) When the upload completes (*) you should see a file named "Bookmarks.txt"
-   in your Google Drive (**). This file contains all of your bookmarks
+8) When the upload completes you should see a file named "Bookmarks.txt"
+   in your Google Drive. This file contains all of your bookmarks
 
 
-*) If the upload is taking more than a few seconds, click the "Upload bookmarks"
+(*) If the upload is taking more than a few seconds, click the "Upload bookmarks"
    button again. I have seen intermittent issue with uploading failing. Retrying
    should work
 
-**) You may need to refresh the Google Drive tab to see the uploaded Bookmarks.txt file.
+(**) You may need to refresh the Google Drive tab to see the uploaded Bookmarks.txt file.
 
 
 Notes:
