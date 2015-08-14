@@ -1,18 +1,52 @@
-A chrome extension to upload bookmarks to Google drive
--------------------------------------------------------
+Bookmarks uploader Chrome extension
+------------------------------------
 
 Loading the extension:
 ----------------------
 
-1) Open Chrome
+1) Clone this repository
 
-2) Browse to: "chrome://extensions" in the navigation bar
+2) Open Chrome
 
-3) Check "Developer mode"
+3) Browse to: "chrome://extensions" in the navigation bar
 
-4) Click load unpacked extension
+4) Check "Developer mode"
 
-5) Browser to the directory where you have cloned this repository
+5) Click load unpacked extension
+
+6) Browser to the directory where you have cloned this repository
+
+
+Using the extension:
+--------------------
+
+1) Once the extension is loaded it should show as a icon on Chrome
+
+2) Click it
+
+3) You will see two buttons - "Authorize" and "Upload bookmarks"
+
+4) Click "Authorize". You will be directed to a login screen where
+   you provide your Google SSO to grant access to the app make read/write
+   calls to Google Drive
+
+5) Open drive.google.com
+
+6) Now click the icon again. The buttons should be now "Deauthorize" and
+   "Upload bookmarks"
+
+7) Click "Upload bookmarks". You should see a progress bar indicating the
+   bookmark upload is in progress.
+
+8) When the upload completes (*) you should see a file named "Bookmarks.txt"
+   in your Google Drive (**). This file contains all of your bookmarks
+
+
+*) If the upload is taking more than a few seconds, click the "Upload bookmarks"
+   button again. I have seen intermittent issue with uploading failing. Retrying
+   should work
+
+**) You may need to refresh the Google Drive tab to see the uploaded Bookmarks.txt file.
 
 
 Notes:
