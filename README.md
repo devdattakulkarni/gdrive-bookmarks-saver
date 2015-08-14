@@ -1,6 +1,8 @@
 A chrome extension to upload bookmarks to Google drive
+-------------------------------------------------------
 
 Loading the extension:
+----------------------
 
 1) Open Chrome
 
@@ -13,7 +15,9 @@ Loading the extension:
 5) Browser to the directory where you have cloned this repository
 
 
-Starter code that uploads to gdrive taken from:
+Notes:
+------
+Starter code to upload files to gdrive taken from:
 https://github.com/GoogleChrome/chrome-app-samples/samples/gdrive
 
 Modified that code as follows:
